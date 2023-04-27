@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    width: 200px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #book-info {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  #book-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #book-author {
+    font-size: 14px;
+  }
+  
+  #book-rating {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF9900;
+  }
+  
+  #book-cover {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    background-color: #1e402f;
+  }
+  

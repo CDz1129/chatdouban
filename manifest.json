@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Douban Book Summary",
+    "version": "1.0",
+    "description": "Show book summary on Douban book pages",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions" : ["https://api.openai.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://book.douban.com/subject/*/*"],
+        "js": ["content.js"],
+        "css":["content.css"]
+      }
+    ],
+    "icons": {
+      "1": "1.jpeg",
+      "2": "2.jpeg",
+      "3": "3.jpeg"
+    }
+  }
+  
